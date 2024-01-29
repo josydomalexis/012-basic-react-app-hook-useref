@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+button{
+  padding: 10px 30px;
+  background-color: cornflowerblue;
+  border: none;
+  font-size: large;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 -1px 3px inset #fff;
+  color: #fff;
+}
+
+button:hover{
+  background-color: rgb(114, 163, 254);
+  border: none;
+}
+
+button:active{
+  background-color: rgb(59, 114, 217);
+  box-shadow: 0 0 3px inset #000;
+  color: rgb(18, 58, 133);;
+  border: none;
+}
